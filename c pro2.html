@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter-13</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+            <a class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><ion-icon name="search-sharp"></ion-icon></button>
+            </a>
+            <button class="btnlogin-popu"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main>
+    <h1 class="b1">Chapter-2 INSTRUCTIONS AND OPERATORS  </h1>
+        <pre class="b2"> 
+    A c programming is a set of instructions . Just like a recepic which contains instructions to prepare perticular dish         
+    <h2> Types of Instructions </h2>
+    1.	Type declaration Instruction
+    2.	Arithmetic Instruction
+    3.	Control Instruction
+        
+    <h2> Type declaration Instruction</h2>
+    Int a;
+Float b;
+Other Variations:
+Int i= 10 ; int j=i ; int a = 2
+Int j = a + j - i;
+Float b = a + 3;     float a = 1.1.         =>. ERROR! As we are trying      
+                                                                        To use a before defining it.
+
+Int a, b, c, d;
+A=b=C=d = 30;             Value of a, b, C &d will be 30 each.
+Arithmetic Instructions
+Operators
+Int I = (3 * 2)+1.                *,+ are operators
+                                                      & 3,2,1 are operants
+Operands can be int/float etc. 
++ - * / are arithmetic operators
+Int b= 2, C =3 ;
+Intz; Z = b+c;         Legal
+Int Z;.   b*c=2;           x  Not allowed
+
+%.  → Modular division operator
+      /     =>  Returns the remainde
+ %→ Sign is same as of numerator (-5%. 2=-1)
+    
+    <h2>Note  </h2>
+    No operator is assumed to be present
+    1)	Int I = ab          →Invalid
+    2)	Int i= a*b.      valid
+    There Is no operator to perform exponentiation in c  use However we can use in 6 pow (z, y) from <math.h 
+      
+    <h2>Type Conversion</h2>
+    Type Conversion
+An Arithmetic operation between
+int and int = int
+Int and float→Float
+Float and float→ Float
+5/2. = 2.           5.0/ 2 =  2 * 5             Important!!
+2/5 = 0.                 2.0/5  =0.4
+        
+    <h2>Note</h2>
+    Int a = 3.5;             In this lase 3.5 (flsat) will be demoted to 3 (int)   
+    Because a is not able to store floats.
+    Float a = 8;              A will store 8.0 
+    8 -> 8.0 (promotion to float)
+
+    <h2> Operator precedence In C</h2>
+    3*x – 8y .  is (3x)-(8y) or.     3(2-84) ?
+    In C language simple mathematical rules bike BODMAS, no longer applies.
+    The answer to the above question is provided by by operator precedence & associativity
+    Operator precedence: The following table lists the operator priority in C
+           
+    Priority           Operators
+    1.	               *,    /,.  %
+    2                  +,   -
+    3                  =
+    
+    Operators of in the higher priority are evaluated first the absence of parenthesis.
+    Operator Associativity: When operators of equal priorily are present present in an expression, the tie is taken care of by associativity.
+    X*y/z.       -->     (xy) / z
+    2/ y + z .   -->     (x/y) * 2
+    *, /  follows Left to right associativity
+    
+    <h3>Control Instructions</h3>
+    Determines the flow of Control in va program Four types of control Instructions in C in are
+    1.	Sequence Control Instruction
+    2.	Decision Control Instruction
+    3.	Loop Control Instruction
+    4.	Case Control Instruction.
+ </pre> 
+
+
+
+
+    </main>

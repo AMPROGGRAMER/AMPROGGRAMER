@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter 3</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+            <a class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><ion-icon name="search-sharp"></ion-icon></button>
+            </a>
+            <button class="btnlogin-popu"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+<main>
+    <h1 class="b1"> Chapter 3 - Strings</h1>
+    <pre class="b2"> 
+        String is a data type in python . string is a sequence of characters enclosed in quotes.
+        We can primarly ,write a string in these three ways
+
+        1.single quoted strings --> a = ' Abhay '
+        2.double quated  strings --> b =" Abhay "
+        3. Triple quoted strings --> c = ''' Abhay '''
+
+    </pre>
+    <h1 class=" b3"> String Slicing </h1>
+    <pre class="b2"> 
+        A string in python xcan be sliced for getting a part of the string.
+        consider the following string 
+        
+        name = " Abhay" ---> legnth = 5
+
+        The index in a string starts from o to ( length -1) in python. In order to slice a string , we use the following syntax :
+        SL = name [ int_start : ind_end]
+        SL[0:3]  returns "Abh" --> character from ]1 to 3 
+        SL[1:3] returns "bha"  --> character from 1 to 3
+        
+        
+        
+    </pre>
+   <h1 class="b3">Negative indices:- </h1>
+   <pre class="b2">
+        Negative indices ca also be used as shown in the figur abhove -1 corresponding to 
+        the ( length -1  ) index , -2 to ( length -2)
+
+   </pre>
+   <h1  class="b3"> Slicing with skip value</h1>
+   <pre class=" b2"> We can provide a skip values as ampart of our slice like this :
+    word = " amazing "
+    word [1:6:2] --> ' m z n'
+    
+</pre>
+    <h1 class="b3"> Other advanced slicing techniques</h1>
+    <pre class="b2">
+        word = " amazing"
+        word [:7] --> word [0:7] --> ' amazing'
+        word [0:] --> word [0;7] --> ' amazing'        
+    </pre>
+    <h1 class="b3"> Strings functions </h1>
+    <pre class="b2">some of the mostly used functions to perform operations on or manupulate string are :-
+</pre>
+    <h1 class=" b3">1.Len() function </h1>
+    <pre class="b2">
+        This functios returns the length of the String
+          len(" Abhay") ---> returns 5      
+    </pre>
+    <h1 class="b3"> 2.String.endwith ( " hay" ) </h1>
+    <pre class="b2"> This function tells whether the variable string ends with the strings "hay" or not . if  string
+        is " Abhay " , it returns true for "hay" since Abhay ends eith hay
+    </pre>
+   <h1 class="b3"> 3. String.count </h1>
+   <pre class="b2"> 
+    Counts the total number  of accurence of any charecter 
+   </pre> 
+   <h1 class="b3"> 4. string.capitalise()</h1>
+   <pre class="b2">
+    This functions capitilise the first charcter of a given a string .
+   </pre>
+   <h1 class="b3"> 5. string.find( word) </h1>
+   <pre class="b2">
+    This function finds a word and returns the index of first occurense of that word in the string.
+   </pre>
+   <h1 class="b3">6. string.replace(old_word,new_word)
+   </h1>
+   <pre class="b2"> This function replace the olw word with new word in the enter string.</pre>
+   <h1 class="b3"> Escape sequence character </h1>
+   <pre class="b2">
+    sequence of charecter after backsalsh '\'   ------> Escape sequence charecter
+    
+    Escape sequence chareter comprises of more than one character but Represent one charecter when used within the strings. 
+    Example \n,\t,\,\\ etc
+   </pre>
+</main>

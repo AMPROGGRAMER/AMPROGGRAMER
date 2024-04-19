@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>C</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+            <a class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><ion-icon name="search-sharp"></ion-icon></button>
+            </a>
+            <button class="btnlogin-popu"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main>
+<h1 class="b1"> Chapter 12: Advance python 1</h1>
+        <pre class="b2"> 
+         <h2> Excpetion handling in python</h2> 
+        There are  many built in exceptions which are raised in python when something goes wrong .
+        Excetions in python can be handled using a try statement . that handles the the exception is writtebn in the excet clause . 
+         try: 
+             # code           -----------> code which might throw Exception 
+           except Exception as e :
+              print (e) 
+        When the excetions is handled , the code flow continus without program interruption . 
+        We can also specify the exception to xatch like below:
+        
+        try : 
+           # code 
+             except Zero divison error :
+                 # code 
+             except Typeerror :
+                # code 
+             except :
+                # code   ----->  all other exceptions are handled here  
+          <h2> Rasing Excpetions </h2>
+          We can raise custom exceptions using the raise keyword in python 
+          
+          <h2> try with else clause</h2>
+          some times we want to run a piece of code when try was succeful. 
+           
+          try:
+            # some code 
+          except :
+            # some code 
+          else :
+           # code          ------> This is excuted only if the try was succeful
+        
+        <h2> Try with finally</h2>
+         Python offers a finally clause which ensuers execution of a piece of code irrespective of the exception   
+           try:
+              # code 
+            except :
+               # some code 
+            finally:
+              #  some code     -----> executed  regardlesss of error ! 
+        
+        <h2> if__name ___ == ' __ main __ ' in Pyhon</h2>
+         __name__ evaluate to the name of the module in python from where the program is run 
+         
+         If the module is being run dirctly from the commond line , the __name__ is set to string " __main__"
+         Thus this behavior is used to check whether the module is run directly or imprted to anothor file.
+    
+        <h2> The global keyword</h2>
+         global key word is use dto modily the variable outside of the  current 
+         scope .
+        
+        <h2> Enumerate function in python </h2>
+          the enumerate function adds counter to an iteralate and returns it 
+            for i, item in list 1:
+              print(i, item )   ----> Prints the item of list 1 with index ! 
+
+    
+        <h2> List comprehensions :</h2>
+         List comprehessions is an elgant way to create list based on existing lists
+          list 1 = [ 1, 7 , 12 , 11 , 22,]
+          list 2 = [ i for item in list 1 if item > 8] 
+          
+
+        
+    
+    
+    
+    
+    
+    
+        </pre>
+    </main>

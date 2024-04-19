@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter-5</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+            <a class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><ion-icon name="search-sharp"></ion-icon></button>
+            </a>
+            <button class="btnlogin-popu"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main>
+        <h1 class="b1"> Chapter 5: Dictionary & Sets</h1>
+        <pre class="b2"> 
+            Dictionary is a collection of key-value pairs
+
+            Syntax:
+                  a = { “Ray”: “value “,
+                            “Herry” : “code”,
+                             “ marks “ : “100”,
+                              “ List” : [1,2,9] }
+            a["key"] => Prints "Value"
+            a ["list"]=> Prints [1,2,9]
+        <h2>Properties of a Python Dictionaries </h2>
+        1.	It is unordered
+        2.	It is mutable
+        3.	It is indexed
+        4.	Cannot contain duplicate keys
+        
+        <h2>Dictionary Methods</h2>
+        Consider the following dictionary
+        a = { "name": "Abhay",
+                   "from": "India",
+                    "marks": [92.,98,96] }
+        1.	items(): returns a list of (Rey, value) tuples
+        2.	Reys(): returns a list containing dictionary's keys
+        3.	update  ({“friend” : ”Sam”}): updates the dictionary with                 
+               supplied Rey-value pair
+        4.	a. get (“name”).    returns the value of the specified keys (and Value is returned “Abhay” is returned here)
+        
+        <h2>More methods are available on docs. Python org.</h2>
+        Sets in Python
+        Set is a collection of non repetitive elements.
+        
+        S = Set().               => No repetition allowed !
+        S. add (1)
+        G. add (2).             =>or set = {1,2}
+        
+        
+        If you are a programming beginner without much knowledge of mathematical operations on, Simply look at sets
+        Combining unique values
+        
+        <h2>Properties of Sets</h2>
+        1. Sets are unordered.              => Element order doesn’t matter
+        2. Gets are indexed                    => Cannot access elements by index
+        3 .There is no way to change items in sets.
+        4. Sets cannot Contain duplicate values
+
+        <h2>Operations on Sets</h2>
+        Consider the following Set :
+        s ={ 1,8,2,3}
+        1)	Len(s): Returns 4, the length of the set
+        2)	s. remove (8): Updates the set s and removes 8 from s
+        3)	3. s. Pop(): Removes an arbitrary element from the set a              .             return the element removed
+        4)	s. Clear(): Empties the set 5
+
+        5)	5. s. Union (28,113): Returns a new set with all items from both sets.      =>{1,8,2,3,11}
+        6)	s. Intersection (28,113): Returns a set which contains only items in both sets.   => {8
+
+        </pre>
+    </main>

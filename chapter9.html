@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter 9</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+            <a class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><ion-icon name="search-sharp"></ion-icon></button>
+            </a>
+            <button class="btnlogin-popu"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main>
+        <h1 class="b1"> Chapter 9 - File I / O</h1>
+        <pre class="b2"> 
+    The random acess memory is volatile and all its conents are last once a program terminates in order to persist the data forever , 
+     we use files . A file is data stored in a storage device . A puthon program can talk to hthe file by reading content form it
+     and writing content to it
+        
+        <h2> Types of file  </h2>
+        
+            There are two types of files:
+             1. Text files (.txt, .c etc)
+             2. Binary files (.jpg,.dat,etc)
+
+             python has a lot of functions for reading, updating and delefing files
+      
+        <h2> Opening a file </h2>
+        
+        Python has an open () function for opening files. It takes 2 parameters: Filename and mode 
+           open ( "this .txt","r")
+           here "r" => mode of opening (read mode)
+                " this .txt" => Filename
+                open => open is built in function  
+        <h2> Reading a file in python </h2>
+            f = open( " this.txt","r") ---> open the file in r mode 
+            text = f.read() ----> Read its Contents
+            print(text)---> print its Contents
+            f.close()---> close the file 
+
+        we can also specify the number of charecter in read function : f.read(2) ---> Read first two charecter
+        <h2> Other methods to read </h2>
+        We can also use f.readline() function to read o  full line at a time
+              f.readline()  ----> Reads one line from the file 
+        <h2> Modes of opening a file</h2>
+        r ----> open for reading
+        w -----> open for writing
+        a -----> open for appending
+        + -----> open for updating
+        
+        'rb' will open for read in binary mode 
+        'rt' will open for read in text mode
+        <h2> Writing files in python</h2>
+        In  order to write to a file , we first open it in write or append mode after which , we can the python's 
+        f.write() method to write to the file ! 
+         f= open("this.txt","w")
+         f.write ("This is nice") ---> can be called multiple times 
+         f.close()
+
+        <h2> With statement</h2>
+        The best way to open and close the file automatically is the with statement 
+           with open("this.txt") as f:
+           f.read() ----> don't need to write f.close() as it done automatically
+
+        </pre>
+
+    </main>

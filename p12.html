@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/StyleSheet1.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter 4 </title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+            <a class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><ion-icon name="search-sharp"></ion-icon></button>
+            </a>
+            <button class="btnlogin-popu"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main id="big0">
+        <style>
+            .big{
+                width: 400px;
+                height: 630px;
+                overflow: hidden;
+                overflow: scroll;
+                margin-top: 100px;
+            }
+            #big0{
+                display: flex;
+            }
+            #mylist1,#mylist2,#mylist3,#mylist4{
+              display: none; 
+              margin-left: 80px;
+              
+            }
+            #section1,#section0,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9,#section10,#section11{
+                margin-left: 50px;
+                margin-top: 20px;
+            } 
+            .big2{
+                width: 1050px;;
+                height: 630px;
+                margin-top: 100px;
+                margin-left: 60px;
+               border: 2px solid burlywood;
+               border-radius: 10px;
+                overflow: hiddens;
+
+            }
+            .h1{
+                margin: 20px;
+                border-radius: 20px;
+            }
+            .high{
+                width:100%;
+                height: 265px;
+                margin: 20px;
+                margin-left: 25px;
+                border-radius: 20px;
+                overflow: hidden;
+               
+                overflow: scroll;
+            }
+        
+        </style>
+        
+            <section class="big">
+               
+             <div class="cc1">
+                <h3 id="section0"><a href="#">Introduction</a> </h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section2"><a href="#" >Modules,Comments & Pip</a></h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section1"><a href="#">Variable & Data_type :</a></h3>
+                <ul id="mylist1">
+                  <li>Variable</li>
+                  <li>Data_type</li>
+                </ul>
+             </div>
+             <div class="cc1">
+                <h3 id="section3"><a href="#">Strings</a><h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section4"><a href="#">Lists & Tuples :</a></h3>
+                <ul id="mylist2">
+                    <li>Lists</li>
+                    <li>Tuples</li>
+                  </ul>
+             </div>
+             <div class="cc1">
+                <h3 id="section5"><a href="#">Dictionary & Sets :</a></h3>
+                <ul id="mylist3">
+                    <li>Dictionary</li>
+                    <li>Sets</li>
+                  </ul>
+             </div>
+             <div class="cc1">
+                <h3 id="section6"><a href="#">Conditional Expressions</a></h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section7"><a href="#">Loops</a></h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section8"><a href="#">Functions & Recursions :</a></h3>
+                <ul id="mylist4">
+                    <li>Functions</li>
+                    <li>Recursions</li>
+                  </ul>
+             </div>
+             <div class="cc1">
+                <h3 id="section9"><a href="#">File I/O </a></h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section10"><a href="#">Object Oriented Programming</a></h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section11"><a href="#">Inheritance & Move on OOP's</a></h3>
+             </div>
+        
+            </section>
+            <script>
+              const section1 = document.getElementById('section1');
+              const mylist1 = document.getElementById('mylist1');
+        
+              
+             section1.addEventListener('click', function() {
+              
+             if (mylist1.style.display === 'none') {
+               mylist1.style.display = 'block'; 
+             } else {
+              mylist1.style.display = 'none';
+             }
+             });
+             const section4 = document.getElementById('section4');
+              const mylist2 = document.getElementById('mylist2');
+        
+              
+             section4.addEventListener('click', function() {
+              
+             if (mylist2.style.display === 'none') {
+               mylist2.style.display = 'block'; 
+             } else {
+              mylist2.style.display = 'none';
+             }
+             });
+             const section5 = document.getElementById('section5');
+              const mylist3 = document.getElementById('mylist3');
+        
+              
+             section5.addEventListener('click', function() {
+              
+             if (mylist3.style.display === 'none') {
+               mylist3.style.display = 'block'; 
+             } else {
+              mylist3.style.display = 'none';
+             }
+             });
+             const section8 = document.getElementById('section8');
+              const mylist4 = document.getElementById('mylist4');
+        
+              
+             section8.addEventListener('click', function() {
+              
+             if (mylist4.style.display === 'none') {
+               mylist4.style.display = 'block'; 
+             } else {
+              mylist4.style.display = 'none';
+             }
+             });
+            </script>
+            
+            <section class="big2">
+                <div class="h1"><iframe width="560" height="315" src="https://www.youtube.com/embed/j2G68uQtOwM?si=lO4u9cELeQs25X6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="high">
+                    <h1> Chapter 12: Advance python 1</h1>
+                    <pre> 
+                     <h2> Excpetion handling in python</h2> 
+                    There are  many built in exceptions which are raised in python when something goes wrong .
+                    Excetions in python can be handled using a try statement . that handles the the exception is writtebn in the excet clause . 
+                     try: 
+                         # code           -----------> code which might throw Exception 
+                       except Exception as e :
+                          print (e) 
+                    When the excetions is handled , the code flow continus without program interruption . 
+                    We can also specify the exception to xatch like below:
+                    
+                    try : 
+                       # code 
+                         except Zero divison error :
+                             # code 
+                         except Typeerror :
+                            # code 
+                         except :
+                            # code   ----->  all other exceptions are handled here  
+                      <h2> Rasing Excpetions </h2>
+                      We can raise custom exceptions using the raise keyword in python 
+                      
+                      <h2> try with else clause</h2>
+                      some times we want to run a piece of code when try was succeful. 
+                       
+                      try:
+                        # some code 
+                      except :
+                        # some code 
+                      else :
+                       # code          ------> This is excuted only if the try was succeful
+                    
+                    <h2> Try with finally</h2>
+                     Python offers a finally clause which ensuers execution of a piece of code irrespective of the exception   
+                       try:
+                          # code 
+                        except :
+                           # some code 
+                        finally:
+                          #  some code     -----> executed  regardlesss of error ! 
+                    
+                    <h2> if__name ___ == ' __ main __ ' in Pyhon</h2>
+                     __name__ evaluate to the name of the module in python from where the program is run 
+                     
+                     If the module is being run dirctly from the commond line , the __name__ is set to string " __main__"
+                     Thus this behavior is used to check whether the module is run directly or imprted to anothor file.
+                
+                    <h2> The global keyword</h2>
+                     global key word is use dto modily the variable outside of the  current 
+                     scope .
+                    
+                    <h2> Enumerate function in python </h2>
+                      the enumerate function adds counter to an iteralate and returns it 
+                        for i, item in list 1:
+                          print(i, item )   ----> Prints the item of list 1 with index ! 
+            
+                
+                    <h2> List comprehensions :</h2>
+                     List comprehessions is an elgant way to create list based on existing lists
+                      list 1 = [ 1, 7 , 12 , 11 , 22,]
+                      list 2 = [ i for item in list 1 if item > 8] 
+                      
+            
+                    
+                
+                
+                
+                
+                
+                
+                    </pre>   
+    
+                </div>
+            </section>
+    </main>
+</body>
+</html>

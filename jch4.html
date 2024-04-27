@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/StyleSheet1.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter 4 </title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+            <a class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><ion-icon name="search-sharp"></ion-icon></button>
+            </a>
+            <button class="btnlogin-popu"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main id="big0">
+        <style>
+            .big{
+                width: 400px;
+                height: 630px;
+                overflow: hidden;
+                overflow: scroll;
+                margin-top: 100px;
+            }
+            #big0{
+                display: flex;
+            }
+            #mylist1,#mylist2,#mylist3,#mylist4{
+              display: none; 
+              margin-left: 80px;
+              
+            }
+            #section1,#section0,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9,#section10,#section11{
+                margin-left: 50px;
+                margin-top: 20px;
+            } 
+            .big2{
+                width: 1050px;;
+                height: 630px;
+                margin-top: 100px;
+                margin-left: 60px;
+               border: 2px solid burlywood;
+               border-radius: 10px;
+                overflow: hiddens;
+
+            }
+            .h1{
+                margin: 20px;
+                border-radius: 20px;
+            }
+            .high{
+                width:100%;
+                height: 265px;
+                margin: 20px;
+                margin-left: 25px;
+                border-radius: 20px;
+                overflow: hidden;
+               
+                overflow: scroll;
+            }
+        
+        </style>
+        
+            <section class="big">
+               
+             <div class="cc1">
+                <h3 id="section0"><a href="#">Introduction</a> </h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section2"><a href="#" >Modules,Comments & Pip</a></h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section1"><a href="#">Variable & Data_type :</a></h3>
+                <ul id="mylist1">
+                  <li>Variable</li>
+                  <li>Data_type</li>
+                </ul>
+             </div>
+             <div class="cc1">
+                <h3 id="section3"><a href="#">Strings</a><h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section4"><a href="#">Lists & Tuples :</a></h3>
+                <ul id="mylist2">
+                    <li>Lists</li>
+                    <li>Tuples</li>
+                  </ul>
+             </div>
+             <div class="cc1">
+                <h3 id="section5"><a href="#">Dictionary & Sets :</a></h3>
+                <ul id="mylist3">
+                    <li>Dictionary</li>
+                    <li>Sets</li>
+                  </ul>
+             </div>
+             <div class="cc1">
+                <h3 id="section6"><a href="#">Conditional Expressions</a></h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section7"><a href="#">Loops</a></h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section8"><a href="#">Functions & Recursions :</a></h3>
+                <ul id="mylist4">
+                    <li>Functions</li>
+                    <li>Recursions</li>
+                  </ul>
+             </div>
+             <div class="cc1">
+                <h3 id="section9"><a href="#">File I/O </a></h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section10"><a href="#">Object Oriented Programming</a></h3>
+             </div>
+             <div class="cc1">
+                <h3 id="section11"><a href="#">Inheritance & Move on OOP's</a></h3>
+             </div>
+        
+            </section>
+            <script>
+              const section1 = document.getElementById('section1');
+              const mylist1 = document.getElementById('mylist1');
+        
+              
+             section1.addEventListener('click', function() {
+              
+             if (mylist1.style.display === 'none') {
+               mylist1.style.display = 'block'; 
+             } else {
+              mylist1.style.display = 'none';
+             }
+             });
+             const section4 = document.getElementById('section4');
+              const mylist2 = document.getElementById('mylist2');
+        
+              
+             section4.addEventListener('click', function() {
+              
+             if (mylist2.style.display === 'none') {
+               mylist2.style.display = 'block'; 
+             } else {
+              mylist2.style.display = 'none';
+             }
+             });
+             const section5 = document.getElementById('section5');
+              const mylist3 = document.getElementById('mylist3');
+        
+              
+             section5.addEventListener('click', function() {
+              
+             if (mylist3.style.display === 'none') {
+               mylist3.style.display = 'block'; 
+             } else {
+              mylist3.style.display = 'none';
+             }
+             });
+             const section8 = document.getElementById('section8');
+              const mylist4 = document.getElementById('mylist4');
+        
+              
+             section8.addEventListener('click', function() {
+              
+             if (mylist4.style.display === 'none') {
+               mylist4.style.display = 'block'; 
+             } else {
+              mylist4.style.display = 'none';
+             }
+             });
+            </script>
+            
+            <section class="big2">
+                <div class="h1"><iframe width="560" height="315" src="https://www.youtube.com/embed/j2G68uQtOwM?si=lO4u9cELeQs25X6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="high">
+<h2>Chapter 4- Conditionals in Java</h2>                  
+<pre>
+    Sometimes we want to watch comedy videos on You Tube if the day is Sunday.
+    Sometimes, we order junk food if it is our friend’s birthday in the hostel
+    You might want to buy an Umbrella if its raining and you have the money.
+    You order the meal if aloo or your favourite bhindi is listed on the menu.
+    All these are decisions which depends on a Certain Condition being met.. In Java, we can execute instructions on a Condition being met
+<h2>Decision making Instructions in Java: </h2>
+→If-Else Statement
+→Switch statement
+
+If-else Statement: The syntax of an If-Else statement in C looks like that of C++ and JavaScript. Java has a similar Syntax too. It looks like:
+If (condition-to-be-checked){ 
+                 Statements-if-Condition – true;
+        }
+Else {
+                 Statements – if – Condition-false;
+        }
+
+Code Example:
+Int a = 29;
+If (a>18)
+          System.out.println(“ you Can drive”);
+}
+Note that the else block is optional
+<h2>Relational Operators in Java:</h2>
+Relational operators are used to evaluate conditions (true or false) inside the if statements. Some examples of relational operators are: ==, >=, >, <, <=, != .
+Note: ‘’ is used for assignment where as ‘=’ is used for equality check.
+The condition can be either true or false.
+
+<h2> Logical Operators</h2>
+&&,|| and ! are most commonly used logical
+Operators in Java.
+ These are read as:
+&&  → AND
+ || → OR 
+! → NOT 
+Used to provide logic to our JAVA programs
+<h2> AND operator</h2>
+Evaluates to true if both the conditions are true
+Y && Y = Y                    Y= true
+Y &&N = N                    N= false
+N && Y = N
+N&& N = N
+<h2>OR Operator</h2>
+Evaluates to true when at least one of the conditions is true.
+
+Y || Y = Y                      Y= true
+Y || N=Y                       N= false
+N || Y = Y
+N || N = N
+<h2>  Not Operator</h2>
+Negates the given logic (true becomes false becomes true)  
+
+! Y = N                  Y→ true
+! N = Y                  N→ false
+
+<h2>Else if claus</h2>
+Instead of using multiple if statements, we can also use else if along with if thus forming an if-else- if-else ladder
+
+Using such kind logic reduces indents. Last else is executed only if the Conditions fail. 
+If (Condition) {
+              // Statements;
+}
+Else if {
+                // Statements;
+
+Else { 
+                  //Statements;
+}
+
+<h2>Switch Case Control Instruction  </h2>
+Switch-Case is used when we have to make s choice between number of alternatives for a given variable.
+
+Switch (Var) {
+            Case C1:
+                        // Code;
+                             Break;
+             Case C2:
+                        // Code;
+                             Break;
+             Case C3:
+                        // Code;
+                             Break;
+             Default:
+                        // Code;
+}
+Var can be an integer, character or string in Java. A switch can occur within another but in practice this is rarely done.
+
+
+
+</pre>
+
+
+
+
+
+
+
+
+
+                </div>
+            </section>
+    </main>
+</body>
+</html>

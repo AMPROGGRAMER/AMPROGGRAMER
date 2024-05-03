@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/StyleSheet2.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter 4 </title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a class="link" href="/home">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+           
+            <button class="login-popup"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main id="big0">
+        <style>
+            .big{
+                width: 400px;
+                height: 630px;
+                overflow: hidden;
+                overflow: scroll;
+                margin-top: 100px;
+            }
+            #big0{
+                display: flex;
+            }
+            #mylist1,#mylist2,#mylist3,#mylist4{
+              display: none; 
+              margin-left: 80px;
+              
+            }
+            #section1,#section0,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9,#section10,#section11{
+                margin-left: 50px;
+                margin-top: 20px;
+            } 
+            .big2{
+                width: 1050px;;
+                height: 630px;
+                margin-top: 100px;
+                margin-left: 60px;
+               border: 2px solid burlywood;
+               border-radius: 10px;
+                overflow: hiddens;
+
+            }
+            .h1{
+                margin: 20px;
+                border-radius: 20px;
+            }
+            .high{
+                width:100%;
+                height: 265px;
+                margin: 20px;
+                margin-left: 25px;
+                border-radius: 20px;
+                overflow: hidden;
+               
+                overflow: scroll;
+            }
+        
+        </style>
+        
+        <section class="big">
+               
+            <div class="cc1">
+               <h3 id="section0"><a class="link" href="/java">Introduction</a> </h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section2"><a class="link" href="/java1" >Variable and Data_type</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section1"><a class="link" href="/java2">Operators and Expressions</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section3"><a class="link" href="/java3">Stings</a><h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section4"><a class="link" href="/java4">Conditionals</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section5"><a class="link" href="/java5">Loops Control</a></h3>  
+            </div>
+            <div class="cc1">
+               <h3 id="section6"><a class="link" href="/java6">Arrays</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section7"><a class="link" href="/java7">Methods in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section8"><a class="link" href="/java8">OOPs in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section9"><a class="link" href="/java9">Access Modifier & Constructors</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section10"><a href="#"></a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section11"><a href="#"></a></h3>
+            </div>
+       
+           </section>
+            <script>
+              const section1 = document.getElementById('section1');
+              const mylist1 = document.getElementById('mylist1');
+        
+              
+             section1.addEventListener('click', function() {
+              
+             if (mylist1.style.display === 'none') {
+               mylist1.style.display = 'block'; 
+             } else {
+              mylist1.style.display = 'none';
+             }
+             });
+             const section4 = document.getElementById('section4');
+              const mylist2 = document.getElementById('mylist2');
+        
+              
+             section4.addEventListener('click', function() {
+              
+             if (mylist2.style.display === 'none') {
+               mylist2.style.display = 'block'; 
+             } else {
+              mylist2.style.display = 'none';
+             }
+             });
+             const section5 = document.getElementById('section5');
+              const mylist3 = document.getElementById('mylist3');
+        
+              
+             section5.addEventListener('click', function() {
+              
+             if (mylist3.style.display === 'none') {
+               mylist3.style.display = 'block'; 
+             } else {
+              mylist3.style.display = 'none';
+             }
+             });
+             const section8 = document.getElementById('section8');
+              const mylist4 = document.getElementById('mylist4');
+        
+              
+             section8.addEventListener('click', function() {
+              
+             if (mylist4.style.display === 'none') {
+               mylist4.style.display = 'block'; 
+             } else {
+              mylist4.style.display = 'none';
+             }
+             });
+            </script>
+            
+            <section class="big2">
+                <div class="h1"><iframe width="560" height="315" src="https://www.youtube.com/embed/j2G68uQtOwM?si=lO4u9cELeQs25X6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h2 class="title1">Introduction To JAVA.</h2>
+                </div>
+                <div class="high">
+    <h1>Chapter 4 – Fonts and Display </h1>        
+        <pre>
+            
+
+           <h2> The display property </h2>
+            The CS5 display property is used to determine whether an element is treated as a block/inline element & the layout used for its children.
+                        
+            Display: inline
+            Takes only the space required by the element nt. No line breaks before and after setting width / height not allowed.
+            
+            Display: block
+            Takes full space available in width and leaves a newline before and after the element
+            
+            Display: inline-block
+            Similar to inline but setting height, width, margin and padding is allowed. Elements sit next to each other
+            
+            Display: none vs Visibility: hidden 
+            With display: none  the element is removed from the document flow. Its Space is not blocked. With Visibility: hidden, the element is hidden but it’s space is reserved.
+            
+          <h2>  Text-align property</h2>
+            Used to set the horizontal alignment of a text
+            div1 {
+            kxt-align: center;
+            Text-decoration properly 
+            Used to decorate the text
+                 can be over line, line-through, underline, none
+            
+            <h2>Text-transform property</h2>
+            Used to specify uppercase and lowercase letters in a text.
+            p. uppercase {
+             text-transform: uppercase;
+                     }
+            
+            <h2>Line-height property</h2>
+            
+            Used to specify the space between lines.
+            
+            Small {
+            line-height: 0.7;
+            }
+            Font
+            
+            Ys a very important rode in the look and fel font plays be very important role a
+            
+         <h2>   Font-family</h2>
+            
+            Font family specifies the font e font of a text. Can hold multiple values a “fallback” system
+            {
+            “font-family: “Times New Roman”, monospace;
+            }
+                          → Always do this to ensure the correct font of your choice is rendered
+                           
+                 Web Safe fonts
+            These fonts are universally installed across browsers.
+            
+            How to add Google fonts
+            
+            In order to use custom google fonts, go to google fonts then select a style and finally paste a Style.css of your page. 
+            
+         <h2>   Other font properties</h2>
+            Some of the other font properties are listed below:
+            
+            Font-size← Sets the size of the font
+            
+            Font-style → Sets the font style
+            
+            Font-variant→ Sets whether text is displayed in small-caps
+            
+            Font-weight → sets the weight of the font
+            
+           <h2> Generic families</h2>
+            
+            Broad class of similar fonts eg. Serif, Sans- When we say fruit, it can be say serif it can be any Serif Leary to fruit. Serif font-
+            
+            Font-family → Specific
+            Generic family → Generic
+                  
+        </pre>
+                </div>
+            </section>
+    </main>
+</body>
+</html>
+
+

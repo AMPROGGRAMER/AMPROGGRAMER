@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/StyleSheet2.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter 4 </title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a class="link" href="/home">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+           
+            <button class="login-popup"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main id="big0">
+        <style>
+            .big{
+                width: 400px;
+                height: 630px;
+                overflow: hidden;
+                overflow: scroll;
+                margin-top: 100px;
+            }
+            #big0{
+                display: flex;
+            }
+            #mylist1,#mylist2,#mylist3,#mylist4{
+              display: none; 
+              margin-left: 80px;
+              
+            }
+            #section1,#section0,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9,#section10,#section11{
+                margin-left: 50px;
+                margin-top: 20px;
+            } 
+            .big2{
+                width: 1050px;;
+                height: 630px;
+                margin-top: 100px;
+                margin-left: 60px;
+               border: 2px solid burlywood;
+               border-radius: 10px;
+                overflow: hiddens;
+
+            }
+            .h1{
+                margin: 20px;
+                border-radius: 20px;
+            }
+            .high{
+                width:100%;
+                height: 265px;
+                margin: 20px;
+                margin-left: 25px;
+                border-radius: 20px;
+                overflow: hidden;
+               
+                overflow: scroll;
+            }
+        
+        </style>
+        
+        <section class="big">
+               
+            <div class="cc1">
+               <h3 id="section0"><a class="link" href="/java">Introduction</a> </h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section2"><a class="link" href="/java1" >Variable and Data_type</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section1"><a class="link" href="/java2">Operators and Expressions</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section3"><a class="link" href="/java3">Stings</a><h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section4"><a class="link" href="/java4">Conditionals</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section5"><a class="link" href="/java5">Loops Control</a></h3>  
+            </div>
+            <div class="cc1">
+               <h3 id="section6"><a class="link" href="/java6">Arrays</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section7"><a class="link" href="/java7">Methods in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section8"><a class="link" href="/java8">OOPs in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section9"><a class="link" href="/java9">Access Modifier & Constructors</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section10"><a href="#"></a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section11"><a href="#"></a></h3>
+            </div>
+       
+           </section>
+            <script>
+              const section1 = document.getElementById('section1');
+              const mylist1 = document.getElementById('mylist1');
+        
+              
+             section1.addEventListener('click', function() {
+              
+             if (mylist1.style.display === 'none') {
+               mylist1.style.display = 'block'; 
+             } else {
+              mylist1.style.display = 'none';
+             }
+             });
+             const section4 = document.getElementById('section4');
+              const mylist2 = document.getElementById('mylist2');
+        
+              
+             section4.addEventListener('click', function() {
+              
+             if (mylist2.style.display === 'none') {
+               mylist2.style.display = 'block'; 
+             } else {
+              mylist2.style.display = 'none';
+             }
+             });
+             const section5 = document.getElementById('section5');
+              const mylist3 = document.getElementById('mylist3');
+        
+              
+             section5.addEventListener('click', function() {
+              
+             if (mylist3.style.display === 'none') {
+               mylist3.style.display = 'block'; 
+             } else {
+              mylist3.style.display = 'none';
+             }
+             });
+             const section8 = document.getElementById('section8');
+              const mylist4 = document.getElementById('mylist4');
+        
+              
+             section8.addEventListener('click', function() {
+              
+             if (mylist4.style.display === 'none') {
+               mylist4.style.display = 'block'; 
+             } else {
+              mylist4.style.display = 'none';
+             }
+             });
+            </script>
+            
+            <section class="big2">
+                <div class="h1"><iframe width="560" height="315" src="https://www.youtube.com/embed/j2G68uQtOwM?si=lO4u9cELeQs25X6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h2 class="title1">Introduction To JAVA.</h2>
+                </div>
+                <div class="high">
+    <h1>Chapter 2- Colours and Background  </h1>        
+        <pre>
+
+            CSS rules are simple key-value pairs with a selector We can write CSS rules to change color and set backgrounds
+            
+            <h2>The color property</h2>
+            The CSS color property can be used to set the text color inside an element
+              {
+            Color: red; → Text color will be changed to red.
+            }
+            Similarly we can set color for different elements
+            
+           <h2> Types of color values</h2>
+            Following are the most commonly used color values in CSS
+            1 RGB → Specify color using Red, green, blue values eg.        Rgb(200,98, 70)
+             2. HEX Code Specify color using → Specify color using hex code.
+                   Eg # ff 7180
+            3> HSL →Specify color using hex code.
+            Cg: hsl (8,90%,63%,)
+            
+            The value of the color or background color is provided as any one of these values
+            
+            Note: We also have an RGBA and HSLA values for Color but they are rarely used by beginners A stands for alpha
+            
+            The background-color property.
+            The CSS background color property specifies the background color of a container 
+            for eg:
+            brown {
+            background-color: brown;   Can be other types of Colors 
+                           }                                                    as well 
+            
+            <h2>The background-image property</h2>
+            
+            Used to set an image as the background
+            
+            body  {
+            background-image: url(“Ranjit.jpg”)
+                   }
+            
+            The image is by default repeated in x &  y directions
+            
+             <h2>background-repeat property</h2>
+            Can be any of
+            
+            Repeat x Repeat in horizontal direction
+            Repeat y. → repeat in vertical direction
+            
+            No-repeat image not repeat 
+            See more possible values at MDN docs
+            The background-size property
+                 can be following:
+            •	cover →fits & ne empty space remains
+            •	Contain fits & image is fully visible 
+            •	auto → Display in original size
+            •	{{Width}}→ Set width & height will be set automatically
+            •	Width}}{{ height}} set width & height
+            
+            Note: Always check the MDN docs to dissect a given CSS property. Remember, practice will make you perfect
+            
+            <h2>The background-position property</h2>
+            Sets the starting position a of a background image.
+            
+            div. {
+            Background-position: left top;
+             }
+            
+           <h2> The background attachment property </h2>
+            Defines a scrollable /non-scrollable character of a background image
+            
+            div {
+            Background-attachment: fixed
+             }
+            
+            The background Shorthand
+            A single property to set multiple background properties.
+            
+            div 3 {
+            Background: red url(‘img.png) no-repeat fixed right top;
+            }
+            One of the properties can be missing given the others are in order
+                    
+
+        </pre>
+                </div>
+            </section>
+    </main>
+</body>
+</html>
+

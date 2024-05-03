@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/StyleSheet2.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter 4 </title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a class="link" href="/home">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+           
+            <button class="login-popup"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main id="big0">
+        <style>
+            .big{
+                width: 400px;
+                height: 630px;
+                overflow: hidden;
+                overflow: scroll;
+                margin-top: 100px;
+            }
+            #big0{
+                display: flex;
+            }
+            #mylist1,#mylist2,#mylist3,#mylist4{
+              display: none; 
+              margin-left: 80px;
+              
+            }
+            #section1,#section0,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9,#section10,#section11{
+                margin-left: 50px;
+                margin-top: 20px;
+            } 
+            .big2{
+                width: 1050px;;
+                height: 630px;
+                margin-top: 100px;
+                margin-left: 60px;
+               border: 2px solid burlywood;
+               border-radius: 10px;
+                overflow: hiddens;
+
+            }
+            .h1{
+                margin: 20px;
+                border-radius: 20px;
+            }
+            .high{
+                width:100%;
+                height: 265px;
+                margin: 20px;
+                margin-left: 25px;
+                border-radius: 20px;
+                overflow: hidden;
+               
+                overflow: scroll;
+            }
+        
+        </style>
+        
+        <section class="big">
+               
+            <div class="cc1">
+               <h3 id="section0"><a class="link" href="/java">Introduction</a> </h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section2"><a class="link" href="/java1" >Variable and Data_type</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section1"><a class="link" href="/java2">Operators and Expressions</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section3"><a class="link" href="/java3">Stings</a><h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section4"><a class="link" href="/java4">Conditionals</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section5"><a class="link" href="/java5">Loops Control</a></h3>  
+            </div>
+            <div class="cc1">
+               <h3 id="section6"><a class="link" href="/java6">Arrays</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section7"><a class="link" href="/java7">Methods in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section8"><a class="link" href="/java8">OOPs in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section9"><a class="link" href="/java9">Access Modifier & Constructors</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section10"><a href="#"></a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section11"><a href="#"></a></h3>
+            </div>
+       
+           </section>
+            <script>
+              const section1 = document.getElementById('section1');
+              const mylist1 = document.getElementById('mylist1');
+        
+              
+             section1.addEventListener('click', function() {
+              
+             if (mylist1.style.display === 'none') {
+               mylist1.style.display = 'block'; 
+             } else {
+              mylist1.style.display = 'none';
+             }
+             });
+             const section4 = document.getElementById('section4');
+              const mylist2 = document.getElementById('mylist2');
+        
+              
+             section4.addEventListener('click', function() {
+              
+             if (mylist2.style.display === 'none') {
+               mylist2.style.display = 'block'; 
+             } else {
+              mylist2.style.display = 'none';
+             }
+             });
+             const section5 = document.getElementById('section5');
+              const mylist3 = document.getElementById('mylist3');
+        
+              
+             section5.addEventListener('click', function() {
+              
+             if (mylist3.style.display === 'none') {
+               mylist3.style.display = 'block'; 
+             } else {
+              mylist3.style.display = 'none';
+             }
+             });
+             const section8 = document.getElementById('section8');
+              const mylist4 = document.getElementById('mylist4');
+        
+              
+             section8.addEventListener('click', function() {
+              
+             if (mylist4.style.display === 'none') {
+               mylist4.style.display = 'block'; 
+             } else {
+              mylist4.style.display = 'none';
+             }
+             });
+            </script>
+            
+            <section class="big2">
+                <div class="h1"><iframe width="560" height="315" src="https://www.youtube.com/embed/j2G68uQtOwM?si=lO4u9cELeQs25X6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h2 class="title1">Introduction To C Programming.</h2>
+                </div>
+                <div class="high">
+                    <h1 class="c1">Let Start C</h1>      
+        <pre>
+            <h1 class="c1">Let Start C</h1>
+            <pre class="c2">
+                In this C Tutorial, you’ll learn all C programming basic to advanced concepts like variables, arrays,
+                pointers, strings, loops, etc. This C Programming Tutorial is designed for both beginners as well as
+                experienced professionals, who’re looking to learn and enhance their knowledge of the C programming
+                language.
+            </pre>
+            <img class="c5" src="c1.png">
+            <h2 class="c3">What is C?</h2>
+            <pre class="c4">
+                C is a general-purpose, procedural, high-level programming language used in the development of
+                computer software and applications, system programming, games, and more.
+        
+                    1. C language was developed by Dennis M. Ritchie at the Bell Telephone Laboratories in 1972.
+                    2. It is a powerful and flexible language which was first developed for the programming of the 
+                       UNIX operating System.
+                    3. C is one of the most widely used programming languages.
+        
+                C programming language is known for its simplicity and efficiency. It is the best choice to start with
+                programming as it gives you a foundational understanding of programming.
+            </pre>
+            <h3 class="c6">
+                The main features of the C language include:
+            </h3>
+            <pre class="c7">
+                1. General Purpose and portable
+                2. Low-level Memory Access
+                3. Fast speed and Clean Syntax
+            </pre>
+            <h3 class="c8">Why Should We Learn C?</h3>
+            <pre class="c9">
+                Many later languages have borrowed syntax/features directly or indirectly from the C language. Like syntax 
+                of java, PHP, JavaScript, and many other languages are mainly based on the C language. C++ is nearly a superset 
+                of C language (Only a few programs may compile in C, but not in C++).
+        
+                So,  if a person learns C programming first, it will help him to learn any modern programming language as well.
+                As learning C help to understand a lot of the underlying architecture of the operating system.
+                Like pointers, working with memory locations, etc.
+        
+            </pre>
+            <h3 class="c8">Difference Between C and C++</h3>
+            <pre class="c9">
+                C++ was created to add the OOPs concept into C language so they both have very similar syntax 
+                but both are a bit different from each other.Following are some main differences between C and C++ 
+                Programming language.
+        
+                1.C++ supports OOPs paradigm while C only have procedural concept of programming.
+                2.C++ have exception handling capablities. In C, we have to resolve manually.
+                3.There are no references in C.
+        
+                There are many more differences between C and C++ but these are sufficient at this point.
+            </pre>
+            <h3 class="c8">Features of C Programming Language</h3>
+            <pre class="c9">
+                1.Procedural Language
+                2.Fast and Efficient
+                3.Modularity
+                4.Statically Type
+                5.General-Purpose Language
+                6.Rich set of built-in Operators
+                7.Libraries with Rich Functions
+                8.Middle-Level Language
+                9.Portability
+                10.Easy to Extend
+            </pre>
+            <img class="c0" src="c2.png">
+            <div>
+                <a class="link" href="/home"><ion-icon id="co3" name="home-sharp"></ion-icon></a>
+                <a class="link" href="/page2"><ion-icon id="co2" name="chevron-forward-circle-outline"></ion-icon></a></div>
+        
+        </pre>
+                </div>
+            </section>
+    </main>
+</body>
+</html>
+

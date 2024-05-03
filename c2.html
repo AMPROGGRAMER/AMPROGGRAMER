@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/StyleSheet2.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter 4 </title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a class="link" href="/home">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+           
+            <button class="login-popup"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main id="big0">
+        <style>
+            .big{
+                width: 400px;
+                height: 630px;
+                overflow: hidden;
+                overflow: scroll;
+                margin-top: 100px;
+            }
+            #big0{
+                display: flex;
+            }
+            #mylist1,#mylist2,#mylist3,#mylist4{
+              display: none; 
+              margin-left: 80px;
+              
+            }
+            #section1,#section0,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9,#section10,#section11{
+                margin-left: 50px;
+                margin-top: 20px;
+            } 
+            .big2{
+                width: 1050px;;
+                height: 630px;
+                margin-top: 100px;
+                margin-left: 60px;
+               border: 2px solid burlywood;
+               border-radius: 10px;
+                overflow: hiddens;
+
+            }
+            .h1{
+                margin: 20px;
+                border-radius: 20px;
+            }
+            .high{
+                width:100%;
+                height: 265px;
+                margin: 20px;
+                margin-left: 25px;
+                border-radius: 20px;
+                overflow: hidden;
+               
+                overflow: scroll;
+            }
+        
+        </style>
+        
+        <section class="big">
+               
+            <div class="cc1">
+               <h3 id="section0"><a class="link" href="/java">Introduction</a> </h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section2"><a class="link" href="/java1" >Variable and Data_type</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section1"><a class="link" href="/java2">Operators and Expressions</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section3"><a class="link" href="/java3">Stings</a><h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section4"><a class="link" href="/java4">Conditionals</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section5"><a class="link" href="/java5">Loops Control</a></h3>  
+            </div>
+            <div class="cc1">
+               <h3 id="section6"><a class="link" href="/java6">Arrays</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section7"><a class="link" href="/java7">Methods in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section8"><a class="link" href="/java8">OOPs in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section9"><a class="link" href="/java9">Access Modifier & Constructors</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section10"><a href="#"></a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section11"><a href="#"></a></h3>
+            </div>
+       
+           </section>
+            <script>
+              const section1 = document.getElementById('section1');
+              const mylist1 = document.getElementById('mylist1');
+        
+              
+             section1.addEventListener('click', function() {
+              
+             if (mylist1.style.display === 'none') {
+               mylist1.style.display = 'block'; 
+             } else {
+              mylist1.style.display = 'none';
+             }
+             });
+             const section4 = document.getElementById('section4');
+              const mylist2 = document.getElementById('mylist2');
+        
+              
+             section4.addEventListener('click', function() {
+              
+             if (mylist2.style.display === 'none') {
+               mylist2.style.display = 'block'; 
+             } else {
+              mylist2.style.display = 'none';
+             }
+             });
+             const section5 = document.getElementById('section5');
+              const mylist3 = document.getElementById('mylist3');
+        
+              
+             section5.addEventListener('click', function() {
+              
+             if (mylist3.style.display === 'none') {
+               mylist3.style.display = 'block'; 
+             } else {
+              mylist3.style.display = 'none';
+             }
+             });
+             const section8 = document.getElementById('section8');
+              const mylist4 = document.getElementById('mylist4');
+        
+              
+             section8.addEventListener('click', function() {
+              
+             if (mylist4.style.display === 'none') {
+               mylist4.style.display = 'block'; 
+             } else {
+              mylist4.style.display = 'none';
+             }
+             });
+            </script>
+            
+            <section class="big2">
+                <div class="h1"><iframe width="560" height="315" src="https://www.youtube.com/embed/j2G68uQtOwM?si=lO4u9cELeQs25X6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                </div>
+                <div class="high">
+                    <h3 class="c11">Start with C Hello World Program</h3>       
+        <pre>
+            <h3 class="c11">Start with C Hello World Program</h3>
+            <pre class="c12">
+            To begin with, the “Hello World” program is the first step towards learning any programming language
+            and also one of the simplest programs you will learn. All one needs to do is display the message “Hello World”
+            on the screen. Let’s look at the program and try to understand the terminologies involved in it.
+            </pre>
+            <h3 class="c13">C Program to Print “Hello World”</h3>
+            <p class="c90">The following C program displays “Hello World” in the output</p>
+            <div class="c14">
+                <pre class="c15">
+                  // Simple C program to display "Hello World"
+    
+                  // Header file for input output functions
+                  #include< stdio.h>
+    
+                  // main function -
+                  // where the execution of program begins
+                  int main()
+                  {
+                    //print Hello World
+                    printf("Hello World");
+    
+                    return 0;
+                  }
+                </pre>
+            </div>
+            <h3 class="c13">OUTPUT</h3>
+            <div id="c16">
+                <h4 id="c17">Hello World</h4>
+            </div>
+            <h3 class="c13">Variables</h3>
+            <pre class="c12">
+                A Variable is a container which store a 'value'. In kitchen ,we have container storing Rice , Dal,sugar etc. 
+                similar to that Variable in C stores values of a constant 
+                Example: 
+                         a=3;   //a is assigned "3"
+                         b=4.7;  //b os assigned "4.7"
+                         c='A';  //c is assigned "A"
+            </pre>
+            <h3 class="c13">Rules for naming variable in C</h3>
+            <pre class="c12">
+                1. First character must be alphabet or underscore(_)
+                2. No commas,blank allowed
+                3. No special symbol other than (_) allowed
+                4. Veriable name are case sensitive
+                  
+                We must creat meaningful variable name in our program. This enhances readability of our programs.
+            </pre>
+            <h3 class="c13">Constants</h3>
+            <pre class="c12">
+                An entity whose value doesn't change is called as a Constant.
+                A variable is entity whose value can be changed.
+            </pre>
+            <h3 class="c13">Type of constant</h3>
+            <pre class="c12">
+                primerily,there are three type of constant.
+                1. Integer constant : -1,2,5,6
+                2. Float constant : 1.1,23.4,7.0
+                3. character constant : 'a','$','@'
+            </pre>
+            <h3 class="c13">Keyword</h3>
+            <pre class="c12">
+                These are reserved words, whose remaning is alredy known to the cmpiler . these are 32
+                keywords available in C.
+                  auto ,   double , int   ,    sturct   ,   break ,   long  ,   else  ,  switch
+                  case  ,  return, enum   ,  typedef  ,  char  ,   register ,  extern ,  union
+                  const ,   short  , float  ,   unsigned  ,  continue , signed  ,  for  ,  void 
+                  default , goto  ,  volatile , do   ,   static  ,  if  ,   while
+            </pre>
+            <h3 class="c13">Basic structure of C program.</h3>
+            <pre class="c12">
+                all C programs have to follow a basic stucture . A C program status with a main function and exerted instuction
+                present inside it. Each instruction is terminated with a semicolon(;)
+    
+                There are some rules which are applicable to all the C program :
+                1. Every program execution starts from main() function.
+                2. All the statements are terminated with a semicolon.
+                3. Instruction are case-sensitive
+                4. Instructions are executed in the same order in which they are written.
+            </pre>
+            <h3 class="c13">Comments</h3>
+            <pre class="c12">
+                comments are use to clarity someting about the program in plain language . it is a way for us to add toles to our program.
+                there are two type of comments in C.
+    
+                1. Single line Comment : // this is a comments
+                2. multi- line Comment : /* this is a multi line comments */
+    
+                comments in a C program are not executed and are ignored.
+            </pre>
+            <h3 class="c13">Compilation and Execution</h3>
+            <pre class="c12">
+                A compiler is a computer program hich constuct a Cprogram into machine language so that it can be 
+                easily understand by the computer.
+                A C program is written in plain text. this text is combination of instruction in particular sequence . 
+                the compiler perform some basic checks and finally convert the program into an executive.  
+            </pre>
+            <h3 class="c13">Library Function</h3>
+            <pre class="c12">
+                C language has a lot of valuable library function which is used to carry out certain tasks. 
+                for instance printf function is used to print values on the screen.
+                
+                printf("This is %d",i);
+    
+                %d for Integer
+                %f for float values
+                %c for character  
+            </pre>
+            <h3 class="c13">Type of variable</h3>
+            <pre class="c12">
+                1.  Integer variable : int a = 3;
+                2.  Float veriable : int a = 3.4;
+                3.  Character veriable : char a = 'B';
+            </pre>
+            <h3 class="c13">Receiving input from the user</h3>
+            <pre class="c12">
+                In order to take input from the user and assigned it to a variable , we use scanf function . 
+    
+                Syntax for using scanf:
+                  scanf("%d",&i);
+    
+                & is the " address of " operator and it means that the supplied value should be 
+                copied to the  address which is indicated by variable i.
+      
+        </pre>
+                </div>
+            </section>
+    </main>
+</body>
+</html>
+

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/StyleSheet2.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter 4 </title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a class="link" href="/home">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+           
+            <button class="login-popup"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main id="big0">
+        <style>
+            .big{
+                width: 400px;
+                height: 630px;
+                overflow: hidden;
+                overflow: scroll;
+                margin-top: 100px;
+            }
+            #big0{
+                display: flex;
+            }
+            #mylist1,#mylist2,#mylist3,#mylist4{
+              display: none; 
+              margin-left: 80px;
+              
+            }
+            #section1,#section0,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9,#section10,#section11{
+                margin-left: 50px;
+                margin-top: 20px;
+            } 
+            .big2{
+                width: 1050px;;
+                height: 630px;
+                margin-top: 100px;
+                margin-left: 60px;
+               border: 2px solid burlywood;
+               border-radius: 10px;
+                overflow: hiddens;
+
+            }
+            .h1{
+                margin: 20px;
+                border-radius: 20px;
+            }
+            .high{
+                width:100%;
+                height: 265px;
+                margin: 20px;
+                margin-left: 25px;
+                border-radius: 20px;
+                overflow: hidden;
+               
+                overflow: scroll;
+            }
+        
+        </style>
+        
+        <section class="big">
+               
+            <div class="cc1">
+               <h3 id="section0"><a class="link" href="/java">Introduction</a> </h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section2"><a class="link" href="/java1" >Variable and Data_type</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section1"><a class="link" href="/java2">Operators and Expressions</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section3"><a class="link" href="/java3">Stings</a><h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section4"><a class="link" href="/java4">Conditionals</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section5"><a class="link" href="/java5">Loops Control</a></h3>  
+            </div>
+            <div class="cc1">
+               <h3 id="section6"><a class="link" href="/java6">Arrays</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section7"><a class="link" href="/java7">Methods in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section8"><a class="link" href="/java8">OOPs in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section9"><a class="link" href="/java9">Access Modifier & Constructors</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section10"><a href="#"></a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section11"><a href="#"></a></h3>
+            </div>
+       
+           </section>
+            <script>
+              const section1 = document.getElementById('section1');
+              const mylist1 = document.getElementById('mylist1');
+        
+              
+             section1.addEventListener('click', function() {
+              
+             if (mylist1.style.display === 'none') {
+               mylist1.style.display = 'block'; 
+             } else {
+              mylist1.style.display = 'none';
+             }
+             });
+             const section4 = document.getElementById('section4');
+              const mylist2 = document.getElementById('mylist2');
+        
+              
+             section4.addEventListener('click', function() {
+              
+             if (mylist2.style.display === 'none') {
+               mylist2.style.display = 'block'; 
+             } else {
+              mylist2.style.display = 'none';
+             }
+             });
+             const section5 = document.getElementById('section5');
+              const mylist3 = document.getElementById('mylist3');
+        
+              
+             section5.addEventListener('click', function() {
+              
+             if (mylist3.style.display === 'none') {
+               mylist3.style.display = 'block'; 
+             } else {
+              mylist3.style.display = 'none';
+             }
+             });
+             const section8 = document.getElementById('section8');
+              const mylist4 = document.getElementById('mylist4');
+        
+              
+             section8.addEventListener('click', function() {
+              
+             if (mylist4.style.display === 'none') {
+               mylist4.style.display = 'block'; 
+             } else {
+              mylist4.style.display = 'none';
+             }
+             });
+            </script>
+            
+            <section class="big2">
+                <div class="h1"><iframe width="560" height="315" src="https://www.youtube.com/embed/j2G68uQtOwM?si=lO4u9cELeQs25X6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h2 class="title1">Chapter 8 – Transforms, Transitions & Animations</h2>
+                </div>
+                <div class="high">
+       
+        <pre>
+
+           
+
+            Transforms are used to rotate, move, skew or scale element. They are used to create a 3-D effect
+            The transform property
+             Used to apply a 20 or 3D transformation to an element 
+            
+            The transform-origin property 
+            Allows to change position of transformed elements
+            
+            2D transforms → can change x & y’ axis 
+            3D transforms → Change can change 2 axis as well
+            
+            CSS 2D transform methods
+            You can use the following 2 – D transforms in CSS:
+            
+            1.	 translate()
+            2.	 rotate()
+            3.	ScaleX() 
+            4.	Scaly()
+            5.	 Skew()
+            6.	 matrix()
+            7.	scale ()
+            
+            CSS 3D transform methods
+            1.	rotate X()
+            2.	rotate y()
+            3.	rotate z()
+            CSS Transitions
+            Used to change property values smoothly, over a given. Duration.
+            The transition property
+            The transition property is used to add transition in CSS 
+            Following are the properties used for CSS transition.
+            1)	Transition-property    The property you want to transition
+            2)	Transition.       duration Time for which you want transition to apply
+            3)	transition timing      function How you want the perfectly to transition 
+            4)	Transition.       delay Specifies the delay for the transition
+            
+            All these properties can be set using a single Shorthand property 
+            Transition: width 35 ease-in 25;
+               Training  multiple property 
+            We can multiple properties as follows:
+            Transition: opacity 15 case-out 15, transform 25 ease-in;
+            C55 Animations
+            Used to animate CSS A properties with more control.
+            We can use o from a @keyframes given Style to to change the animation new Style
+            
+            @keyframes Rakesh {
+            
+            From { width: 20px; }          Can change multiple properties. 
+            { width: 31px; }
+            }
+            Properties to add Animations.
+            Following are the properties used to set animation in CSS:
+            1. animation-name     → name of the animation
+            2. animation duration     How long does the animation run
+            3.	Animation-timing-function      → Determines speed curve of the animation
+            4.	Animation-delay.        Delay for the start of an animation
+            5.	Animation-iteration-count.   Number of times an animation shot run
+            6, animation – direction.      Specifies the direction of the animation.
+            
+            The Animation shorthand
+            All the animation properties from 1-6 Can be applied like this:
+            Animation: harry 65 linear 15 infinite reverse;
+            
+            Using percentage value states with animation
+            We can use of values to indicate what should happen when a certain percent of animation is Completed
+            
+            @Reyframes Rakesh {
+             0% {
+            Width: 20px;
+                 }.                                 Can add as many intermediate properties as possible
+            50%. {
+            Width: 80px;
+               }
+            100% {
+            
+            With: 200px;
+            }
+            }
+            To learn more and get OneNote, visit www.onenote.com.
+                  
+        </pre>
+                </div>
+            </section>
+    </main>
+</body>
+</html>
+
+

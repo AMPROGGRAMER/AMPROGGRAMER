@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/StyleSheet2.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Chapter 4 </title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">CodeIT</h2>
+        <nev class="nevigation">
+            <a class="link" href="/home">Home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">service</a>
+           
+            <button class="login-popup"><ion-icon name="person"></ion-icon></button>
+        </nev>
+    </header>
+    <main id="big0">
+        <style>
+            .big{
+                width: 400px;
+                height: 630px;
+                overflow: hidden;
+                overflow: scroll;
+                margin-top: 100px;
+            }
+            #big0{
+                display: flex;
+            }
+            #mylist1,#mylist2,#mylist3,#mylist4{
+              display: none; 
+              margin-left: 80px;
+              
+            }
+            #section1,#section0,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9,#section10,#section11{
+                margin-left: 50px;
+                margin-top: 20px;
+            } 
+            .big2{
+                width: 1050px;;
+                height: 630px;
+                margin-top: 100px;
+                margin-left: 60px;
+               border: 2px solid burlywood;
+               border-radius: 10px;
+                overflow: hiddens;
+
+            }
+            .h1{
+                margin: 20px;
+                border-radius: 20px;
+            }
+            .high{
+                width:100%;
+                height: 265px;
+                margin: 20px;
+                margin-left: 25px;
+                border-radius: 20px;
+                overflow: hidden;
+               
+                overflow: scroll;
+            }
+        
+        </style>
+        
+        <section class="big">
+               
+            <div class="cc1">
+               <h3 id="section0"><a class="link" href="/java">Introduction</a> </h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section2"><a class="link" href="/java1" >Variable and Data_type</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section1"><a class="link" href="/java2">Operators and Expressions</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section3"><a class="link" href="/java3">Stings</a><h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section4"><a class="link" href="/java4">Conditionals</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section5"><a class="link" href="/java5">Loops Control</a></h3>  
+            </div>
+            <div class="cc1">
+               <h3 id="section6"><a class="link" href="/java6">Arrays</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section7"><a class="link" href="/java7">Methods in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section8"><a class="link" href="/java8">OOPs in Java</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section9"><a class="link" href="/java9">Access Modifier & Constructors</a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section10"><a href="#"></a></h3>
+            </div>
+            <div class="cc1">
+               <h3 id="section11"><a href="#"></a></h3>
+            </div>
+       
+           </section>
+            <script>
+              const section1 = document.getElementById('section1');
+              const mylist1 = document.getElementById('mylist1');
+        
+              
+             section1.addEventListener('click', function() {
+              
+             if (mylist1.style.display === 'none') {
+               mylist1.style.display = 'block'; 
+             } else {
+              mylist1.style.display = 'none';
+             }
+             });
+             const section4 = document.getElementById('section4');
+              const mylist2 = document.getElementById('mylist2');
+        
+              
+             section4.addEventListener('click', function() {
+              
+             if (mylist2.style.display === 'none') {
+               mylist2.style.display = 'block'; 
+             } else {
+              mylist2.style.display = 'none';
+             }
+             });
+             const section5 = document.getElementById('section5');
+              const mylist3 = document.getElementById('mylist3');
+        
+              
+             section5.addEventListener('click', function() {
+              
+             if (mylist3.style.display === 'none') {
+               mylist3.style.display = 'block'; 
+             } else {
+              mylist3.style.display = 'none';
+             }
+             });
+             const section8 = document.getElementById('section8');
+              const mylist4 = document.getElementById('mylist4');
+        
+              
+             section8.addEventListener('click', function() {
+              
+             if (mylist4.style.display === 'none') {
+               mylist4.style.display = 'block'; 
+             } else {
+              mylist4.style.display = 'none';
+             }
+             });
+            </script>
+            
+            <section class="big2">
+                <div class="h1"><iframe width="560" height="315" src="https://www.youtube.com/embed/j2G68uQtOwM?si=lO4u9cELeQs25X6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h2 class="title1"></h2>
+                </div>
+                <div class="high">
+    <h1> Chapter 2 - Expressions & Conditionals </h1>        
+        <pre>
+          
+
+            A fragment of code that produces a value is called an expression. Every value written literally is an expression for ex: 77 or “Harry".
+            
+            Operators in Javascript:
+            
+          <h2>  1. Arithmetic Operators</h2>
+            
+            +                      Addition
+            -                       Subtraction
+            *                      Multiplication
+            **                    Exponentiation
+            /                       Division
+            %                      Modulus
+            ++                     Increment
+            - -                      Decrement
+            
+            <h2>2. Assignment Operators</h2>
+            
+            =                         x=y
+            +=                       x=x+y
+            -=                       x=x-y
+            *=                       x = x*y
+            /=                        x = x/y
+            % =                      x = x% y
+            **=                      x = x**y
+         <h2>   3. Comparison operators</h2>
+            
+            ==                   equal to
+            !=                   not equal
+            ===                equal value and type
+            !==                 not equal value or not equal type
+            >                     Greater than
+            <                     less than
+            >=                   greater than or equal to
+            <=                   less than or equal to
+            ?                     ternary operator
+            
+        <h2> 4. Logical operators</h2>   
+            &&                  logical and 
+            ||                    logical or 
+            !                       logical not
+            Apart from these, we also have type and bitwise operators. Bitwise operators perform bit by bit operations on numbers 
+            operands
+            7   +    8   =   15                    Result 
+                       operator
+            
+           <h2> Comments in Javascript</h2> 
+        
+            Sometimes we want our programs to contain a text which is not executed by the JS Engine.
+            Such a text Called Comment in Javascript.
+            A comment in Javascript can be written as follows:
+            
+            
+            let a=2;                              // this is a single line comment
+            /*                                                                                                    single line comment
+            I am a                                                  Multiline Comment
+            multiline comment
+            */
+            
+            Sometimes comments are used to prevent the execution of some lines of code.
+            
+            let switch = true;
+            // Switch = false                          Commented line wont execute
+            
+           <h2> Conditional Statements</h2>
+            Sometimes we might have to execute a block of code based of some condition. 
+            for example "a prompt might ask for the age of the user and if its greater than 18, display a special message. 
+            In Javascript we have three forms of if ... else Statement;
+            1.  if statement
+            2. if... else statement
+            3. if ... else if ... else statement
+            <h2>
+                if  stalement </h2>
+            The if statement in JavaScript looks like this:
+                              if (condition) { 
+                                           // execute this code 
+                                             }
+            The if statement evaluates the condition inside the (). if the condition is evaluated to true, the code inside the body of if is not executed else the code is not executed. 
+            
+         <h2>   if-else Statement</h2>
+            The if statement can have an optional else clause. The syntax looks something like this
+                           if (condition) {
+                                      // block of code if condition thue
+                                          }
+                                      else {
+                                     //block of code if condition false
+                                           }
+            If the condition is true, code inside if is executed else code inside else block is executed.
+            
+           <h2> If-elseif statement </h2>
+            Sometimes we might want to keep rechecking a set of conditions one by one of until one matches. We use if elseif for achieving this.
+            Syntax of if ... elseif looks like this;
+                       if (vage >0) {
+                                         "Console.log("A valid age");
+                      else if (age > 10 28 age < 15) {
+                                        "Console.log(" but you are a kid ");
+                     else if (age >18)
+                                          Console.log(not a kid");
+                     else Console.log("Invalid Age")
+                              }
+          <h2>  JavaScript ternary Operator</h2>
+            Evaluates a condition and executes a block of Code based on the condition.
+            Condition ?  exp1: exp2
+            Example syntax of ternary operator looks like this:
+                            (marks >10) ?  'yes' : 'No'
+                                                                ↳ If marks are greater than 10, you are passed else not.
+            
+
+        </pre>
+                </div>
+            </section>
+    </main>
+</body>
+</html>
+
+
